@@ -17,6 +17,11 @@ class DashboardController extends Controller
         if(Auth::user()->hasRole([RoleEnum::STUDENT])){
             return redirect()->route("student.index");
         }
-        return view($this->view. "index");
+        else if(Auth::user()->hasRole([RoleEnum::TEACHER])){
+            return redirect()->route("teacher.index");
+        }
+        else {
+            return view($this->view. "index");
+        }
     }
 }

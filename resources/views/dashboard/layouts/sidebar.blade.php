@@ -48,7 +48,7 @@
             </a>
           </li>
           <li>
-            <a href="{{route('dashboard.bahan.index')}}l">
+            <a href="{{route('dashboard.bahan.index')}}">
               <i class="bi bi-circle"></i><span>Bahan Pembelajaran</span>
             </a>
           </li>

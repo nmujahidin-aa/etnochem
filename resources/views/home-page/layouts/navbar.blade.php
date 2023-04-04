@@ -16,9 +16,7 @@
                     <a class="nav-link" href="#">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-primary px-4 text-white rounded-pill" href="#">
-                        Login
-                    </a>
+                    <img src="/img/testimonials/testimonials-2.jpg" height="40px;" style="border-radius: 100px;" alt="">
                 </li>
             </ul>
         </div>

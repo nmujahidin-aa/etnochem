@@ -13,4 +13,16 @@ class AyoBelajarController extends Controller
     public function index(){
         return view($this->view. "index");
     }
+    public function soal(){
+        return view($this->view. "soal");
+    }
+    public function project(){
+        return view($this->view. "project");
+    }
+    public function jadwal(){
+        return view($this->view. "jadwal");
+    }
+    public function send(){
+        return view($this->view. "send");
+    }
 }
