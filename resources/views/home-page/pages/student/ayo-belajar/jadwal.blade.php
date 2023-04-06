@@ -10,11 +10,11 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <select name="" id="" class="form-control">
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
+                            <option value="">Progress 1</option>
+                            <option value="">Progress 2</option>
+                            <option value="">Progress 3</option>
+                            <option value="">Progress 4</option>
+                            <option value="">Progress 5</option>
                         </select>
                     </div>
                     <div class="col-10">
@@ -26,11 +26,11 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <select name="" id="" class="form-control">
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
+                            <option value="">Progress 1</option>
+                            <option value="">Progress 2</option>
+                            <option value="">Progress 3</option>
+                            <option value="">Progress 4</option>
+                            <option value="">Progress 5</option>
                         </select>
                     </div>
                     <div class="col-10">
@@ -42,11 +42,11 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <select name="" id="" class="form-control">
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
+                            <option value="">Progress 1</option>
+                            <option value="">Progress 2</option>
+                            <option value="">Progress 3</option>
+                            <option value="">Progress 4</option>
+                            <option value="">Progress 5</option>
                         </select>
                     </div>
                     <div class="col-10">
@@ -58,11 +58,11 @@
                 <div class="row mt-3">
                     <div class="col-2">
                         <select name="" id="" class="form-control">
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
-                            <option value="">Kegaiatn 1</option>
+                            <option value="">Progress 1</option>
+                            <option value="">Progress 2</option>
+                            <option value="">Progress 3</option>
+                            <option value="">Progress 4</option>
+                            <option value="">Progress 5</option>
                         </select>
                     </div>
                     <div class="col-10">

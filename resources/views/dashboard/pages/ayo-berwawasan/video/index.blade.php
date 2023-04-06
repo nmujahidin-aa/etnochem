@@ -62,11 +62,11 @@
         $(document).on("click",".btn-delete",function(){
             let id = $(this).data("id");
             if(confirm("Apakah anda yakin ingin menghapus data ini ?")){
-                $("#frmDelete").attr("action", "{{ route('dashboard.video.destroy', 'id') }}".replace("id", id));
+                $("#frmDelete").attr("action", "{{ route('dashboard.video.destroy', '_id_') }}".replace("_id_", id));
                 $("#frmDelete").find('input[name="id"]').val(id);
                 $("#frmDelete").submit();
             }
         })
-    });
+    }); 
 </script>
 @endsection

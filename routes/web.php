@@ -36,9 +36,9 @@ Route::group(["namespace" => "App\Http\Controllers\Auth" , "as" => "auth."], fun
 
     Route::get('/logout', "LogoutController@index")->name('logout.index');
 
-    Route::group(["as" => "register.","prefix" => "regsiter"], function () {
-        Route::get('/', 'RegisterController@index')->name("index");
-    });
+    Route::get('/register', 'RegisterController@index')->name("register.index");
+    Route::post('/register', 'RegisterController@register')->name("register.post");
+
 });
 // Route Auth End
 

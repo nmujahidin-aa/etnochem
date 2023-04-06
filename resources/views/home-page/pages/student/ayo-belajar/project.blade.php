@@ -1,7 +1,7 @@
 @extends('home-page.layouts.master')
 @section('content')
 
-<section class="container-fluid" style="background: #D7D7D7; height: 100%; padding-top: 20vh;">
+<section class="container-fluid" style="background: #D7D7D7; height: 100%; padding-top: 10vh;">
 
 <div class="container pb-5">
         <h1 class="text-center pt-5">Project</h1>

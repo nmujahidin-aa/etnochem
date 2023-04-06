@@ -5,17 +5,11 @@
 <div class="container-fluid" style="background: #D7D7D7; height: 100vh;">
     <div class="container">
         <div style="padding-top: 15vh;">
-            <div class="container-fluid">
-                <nav class="mb-3 navbar navbar-light bg-transparant">
-                    <div class="container-fluid">
-                        <form class="d-flex">
-                        <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
-            </div class="mt-5">
-                <div class="row p-2">
+            <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-primary">search</button>
+            </div>
+            <div class="row p-2 mt-4">
                 <div class="col-4 px-2 text-center">
                     <a href="{{route('student.tujuan-pembelajaran.index')}}" class="card text-decoration-none">
                         <div class="card-body bg-primary justify-content-center">

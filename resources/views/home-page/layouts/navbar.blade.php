@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #5D4038; ">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="background: #5D4038; ">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="/img/logo/logo.png" alt=""  height="50">

@@ -25,11 +25,13 @@
                                 <div class="card-body text-center text-white">Soal dan Pembahasan</div>
                             </a>
                         </div>
-
-                    </div>  
+                        <div class="mt-5">
+                            <a  href="{{route('student.index')}}" class="btn btn-warning m-1">Kembali</a>
+                        </div>
+                    </div>
+                      
                 </div>
-                <br>
-                <a  href="{{route('student.index')}}" class="btn btn-warning mx-4">Kembali</a>
+                
             </div>
         </div>
     </div>

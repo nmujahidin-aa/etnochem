@@ -6,27 +6,25 @@
     <div class="container pb-5">
 
     <div class="text-center">
-        <video width="640" height="360" controls>
-            <source src="/video/video_1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div>
+            <video width="640" height="360" controls>
+                <source src="/video/video_2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="d-flex justify-content-center">
+                <a href="https://bit.ly/ETNOCHEM" class="text-decoration-none p-2 bg-success rounded-pill text-white">Mulai Baca</a>
+            </div>
+        </div>
+            
+
     </div>
 
        <div class="card shadow mt-3">
             <div class="card-body">
                 <div class="container p-3">
-                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam sapiente nobis harum nesciunt necessitatibus sequi eos quis expedita ipsum. Impedit accusantium magnam odio, asperiores inventore minima maxime at est!</b>
+                    <b>Ketika berbicara mengenai hubungan antara proses pewarnaan dengan salah satu konsep teori asam basa adalah, bagaimana reaksi yang terjadi antara salah satu jenis pewarna batik (Naphtol AS) dengan NaOH dalam pembuatan warna batik?</b>
                     <div class="mt-3 px-3">
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
+                        <textarea class="form-control" placeholder="Masukkan jawaban anda disini" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>
@@ -35,18 +33,9 @@
        <div class="card shadow mt-3">
             <div class="card-body">
                 <div class="container p-3">
-                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam sapiente nobis harum nesciunt necessitatibus sequi eos quis expedita ipsum. Impedit accusantium magnam odio, asperiores inventore minima maxime at est!</b>
+                    <b>Jelaskan hubungan naphtol AS dengan NaOH berdasarkan salah satu teori asam basa yang berkembang?</b>
                     <div class="mt-3 px-3">
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
+                        <textarea class="form-control" placeholder="Masukkan jawaban anda disini" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>
@@ -55,18 +44,9 @@
        <div class="card shadow mt-3">
             <div class="card-body">
                 <div class="container p-3">
-                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quisquam sapiente nobis harum nesciunt necessitatibus sequi eos quis expedita ipsum. Impedit accusantium magnam odio, asperiores inventore minima maxime at est!</b>
+                    <b>Dalam pembuatan larutan warna indigosol pada batik sidomukti malang digunakan HCl agar proses fikssi dapat terlaksana, bagaimana bisa penambahan senyawa asam/basa dapat mempengaruhi hal tersebut?</b>
                     <div class="mt-3 px-3">
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
-                        <input type="radio" name="pertanyaan">
-                        <label> Lorem ipsum</label> <br>
+                       <textarea class="form-control" placeholder="Masukkan jawaban anda disini" name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>

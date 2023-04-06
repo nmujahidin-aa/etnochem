@@ -1,6 +1,6 @@
 @extends('auth.layouts.master')
 @section('content')
-<section style="background-image: url(images/landing-page/background.jpeg); height: 100%;">
+<section style="background-image: url(assests/img/hero-bg.jpg); height: 100vh;" class="bg-dark">
 	<div class="container p-5">
 		<div class="card shadow" style="border-style: none;">
 			<div class="card-body" style="padding: 0px;">

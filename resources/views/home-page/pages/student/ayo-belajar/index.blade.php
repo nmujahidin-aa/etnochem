@@ -4,7 +4,7 @@
 <section class="container-fluid" style="background: #D7D7D7; height: 100vh; padding-top: 20vh;">
 
 <div class="container pb-5">
-        <h3 class="text-center pt-5">Ayo Berwawasan</h3>
+        <h3 class="text-center pt-5">Ayo Belajar</h3>
         <br>
         <div class="d-flex justify-content-center">
             <div class="row">
