@@ -10,9 +10,9 @@
 
       <nav id="navbar" class="m-auto navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link @if(request()->routeIs('landing-page.home.index')) active @endif text-white" href="{{route('landing-page.home.index')}}">Home</a></li>
-          <li><a class="nav-link @if(request()->routeIs('landing-page.tentang-kami.index')) active @endif text-white" href="{{route('landing-page.tentang-kami.index')}}">Tentang Kami</a></li>
-          <li><a class="nav-link @if(request()->routeIs('landing-page.hubungi-kami.index')) active @endif text-white" href="{{route('landing-page.hubungi-kami.index')}}">Hubungi Kami</a></li>
+          <li><a class="nav-link @if(request()->routeIs('landing-page.home.index')) active @endif " href="{{route('landing-page.home.index')}}">Home</a></li>
+          <li><a class="nav-link @if(request()->routeIs('landing-page.tentang-kami.index')) active @endif" href="{{route('landing-page.tentang-kami.index')}}">Tentang Kami</a></li>
+          <li><a class="nav-link @if(request()->routeIs('landing-page.hubungi-kami.index')) active @endif" href="{{route('landing-page.hubungi-kami.index')}}">Hubungi Kami</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -20,4 +20,6 @@
       <a href="{{route('auth.login.index')}}" class="get-started-btn">Masuk</a>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+<!-- End Header -->
+
