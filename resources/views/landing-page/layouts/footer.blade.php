@@ -1,15 +1,110 @@
-<footer class="footer-waves">
-  <div class="wave-container">
-    <svg viewBox="0 0 1440 320">
-      <path fill="#000000" d="M0,288L48,277.3C96,267,192,245,288,240C384,235,480,245,576,245.3C672,245,768,235,864,224C960,213,1056,203,1152,181.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
-  </div>
-  <div class="footer-content">
-    <p>Follow us on social media:</p>
-    <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-  </div>
-</footer>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #a4907c">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- div: Links -->
+      <div class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img src="{{URL::to('/')}}/img/logo/logo.png" alt="" height="100px;">
+            <div>
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fa fa-facebook-f"></i
+                >
+              </a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fa fa-twitter"></i
+                >
+              </a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fa fa-google"></i
+                >
+              </a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fa fa-instagram"></i
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold">Info Pengembang</h6>
+            <p>
+              <a href="" class="text-white">Team</a>
+            </p>
+            <p>
+              <a href="" class="text-white"></a>
+            </p>
+            <p>
+              <a href="" class="text-white"></a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold">
+              Link Cepat
+            </h6>
+            <p>
+              <a href="" class="text-white">Beranda</a>
+            </p>
+            <p>
+              <a href="" class="text-white">Tentang Kami</a>
+            </p>
+            <p>
+              <a href="" class="text-white">Hubungi Kami</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 fw-bold">Contact</h6>
+            <p><i class="fa fa-home mr-3"></i> Malang</p>
+            <p><i class="fa fa-envelope mr-3"></i> etnochemofficial@gmail.com</p>
+            <p><i class="fa fa-phone mr-3"></i> + 62 234 567 88</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- div: Links -->
+
+      <hr class="my-3">
+
+      <!-- div: Copyright -->
+      <div class="text-center py-4">
+        <p>&copy 2023 <b>Copyright</b> Etnochem.</p>
+      </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->

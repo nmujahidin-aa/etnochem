@@ -1,25 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="background: #5D4038; ">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-      <img src="/img/logo/logo.png" alt=""  height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="d-flex">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                    <img src="/img/testimonials/testimonials-2.jpg" height="40px;" style="border-radius: 100px;" alt="">
-                </li>
-            </ul>
-        </div>
+<header class="fixed-top">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-logo">
+        <a href="{{route('student.index')}}"><img src="{{URL::to('/')}}/img/logo/logo.png" alt="Logo"></a>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="{{route('student.index')}}" class="@if(request()->routeIs('student.index')) active @endif">Home</a></li>
+          <li><a href="">Tentang Kami</a></li>
+        </ul>
+      </div>
+      <div class="navbar-profile">
+        <a href="#"><img src="{{URL::to('/')}}/img/testimonials/testimonials-1.jpg" alt="Profil"></a>
+        <small class="text-white" style="font-size: 15px;"> Hy, {{$row->name}}</small>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</header>

@@ -72,7 +72,7 @@ Route::group(["namespace" => "App\Http\Controllers\Student", "as"=>"student.", "
     });
 
     Route::group(["as" => "ayo-berdiskusi.", "prefix" => "ayo-berdiskusi"], function () {
-        Route::get('/', "AyoBerdiskusiController@index")->name("index");
+        Route::get('/', "DiscussionController@index")->name("index");
     });
 
     Route::group(["as" => "info-pengembang.", "prefix" => "info-pengembang"], function () {

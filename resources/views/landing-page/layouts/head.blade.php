@@ -24,4 +24,6 @@
 
   <!-- Template Main CSS File -->
   <link href="{{URL::to('/')}}/assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>

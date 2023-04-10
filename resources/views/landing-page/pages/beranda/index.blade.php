@@ -24,18 +24,9 @@
             <img src="/img/logo/logo2.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            <h1 style="padding-top: 60px;">Apa itu Etnochem?</h1>
+            <p class="fst-italic" style="text-align: justify;">
+              Etnochem merupakan inovasi media pembelajaran digital untuk materi asam basa berbasis kearifan lokal malang terintegrasi etno-STEAM. Dalam website ini terdapat fitur unggulan yaitu Ayo Belajar yang didalamnya menerapkan model pembelajaran Project Based Learning (PjBL) sesuai dengan perkembangan kurikulum merdeka. Selain itu, terdapat fitur tambahan yaitu Ayo Berwawasan yaitu menyediakan wadah sumber belajar bagi siswa untuk meningkatkan berpikir kritis siswa
             </p>
 
           </div>
@@ -76,11 +67,11 @@
       <div class="container">
         <h1 class="text-center"><strong>Mengapa harus Etnochem?</strong></h1>
         <div class="row" style="margin-top: 80px; margin-bottom: 100px;">
-          <div class="col text-center"><img src="/img/icon/video.png" alt="" height="100px"><p class="mt-3 text-center">Video pembelajaran berbasis kearifan lokal</p> </div>
-          <div class="col text-center"><img src="/img/icon/flipbook.png" alt="" height="100px"><p class="mt-3 text-center">Flibook interaktif</p> </div>
-          <div class="col text-center"><img src="/img/icon/terarah.png" alt="" height="100px"><p class="mt-3 text-center">Pembelajaran terarah menggunakan PjBL</p> </div>
-          <div class="col text-center"><img src="/img/icon/modul.png" alt="" height="100px"><p class="mt-3 text-center">Modul proyek dengan Etno-STEAM</p> </div>
-          <div class="col text-center"><img src="/img/icon/koneksi.png" alt="" height="100px"><p class="mt-3 text-center">Koneksi siswa dan guru seluruh Indonesia</p> </div>
+          <div class="col text-center"><img src="/img/icon/video.png" alt="" height="150px"><p class="mt-3 text-center">Video pembelajaran berbasis kearifan lokal</p> </div>
+          <div class="col text-center"><img src="/img/icon/flipbook.png" alt="" height="150px"><p class="mt-3 text-center">Flibook interaktif</p> </div>
+          <div class="col text-center"><img src="/img/icon/terarah.png" alt="" height="150px"><p class="mt-3 text-center">Pembelajaran terarah menggunakan PjBL</p> </div>
+          <div class="col text-center"><img src="/img/icon/modul.png" alt="" height="150px"><p class="mt-3 text-center">Modul proyek dengan Etno-STEAM</p> </div>
+          <div class="col text-center"><img src="/img/icon/koneksi.png" alt="" height="150px"><p class="mt-3 text-center">Koneksi siswa dan guru seluruh Indonesia</p> </div>
         </div>
       </div>
     </section>
@@ -90,16 +81,15 @@
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
-        <div class="row shadow">
+        <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content shadow">
-              <h3>Apa yang akan kita pelajari disini?</h3>
+              <h3>Apa yang akan dipelajari dalam Ayo Belajar?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                Halaman ini membuat model pembelajaran Project Based Learning (PjBL) yang terdiri dari enam tahapan secara dinamis menggabungkan mentoring dan research organizer dapat membantu siswa dan guru mendapatkan pendampingan dalam penyusunan, progress dan hasil proyek yang diinginkan secara terstruktur dan prosedural.
               </p>
               <div class="text-center">
-                <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="{{route('auth.login.index')}}" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -230,7 +220,7 @@
 
     <!-- Section Tagline Start-->
     <div class="text-center" style="background: #eddeb3; padding-bottom: 50px;">
-      <h3 class="pt-5">Tagline Kita</h3>
+      <h1 class="pt-5 fw-bold fst-italic">" Wujudkan Kimia yang Berbudaya "</h1>
       <div class="d-flex justify-content-center">
         <hr style="height: 3px; border:none; background-color: black; width:70%;">
       </div>
