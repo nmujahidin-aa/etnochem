@@ -90,7 +90,7 @@
     <section id="why-us" class="why-us">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
+        <div class="row shadow">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content shadow">
               <h3>Apa yang akan kita pelajari disini?</h3>

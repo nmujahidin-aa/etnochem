@@ -24,7 +24,7 @@ class RegisterController extends Controller
         return view($this->view. "index");
     }
 
-    public function post(RegisterRequest $Request){
+    public function register(RegisterRequest $request){
         try {
             $name = $request->name;
             $email = $request->email;

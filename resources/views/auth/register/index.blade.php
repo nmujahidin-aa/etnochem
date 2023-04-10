@@ -36,8 +36,8 @@
 							</div>
 							<div class="pt-2">
 								<select name="role" id="role" class="form-control">
-									<option value="STUDENT">Siswa</option>
-									<option value="TEACHER">Guru</option>
+									<option value="Student">Siswa</option>
+									<option value="Teacher">Guru</option>
 								</select>
 							</div>
 							<div class="pt-2">

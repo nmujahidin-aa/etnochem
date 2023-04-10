@@ -127,6 +127,13 @@
     })
   });
 
+  // Resize the wave SVG when the window is resized
+window.addEventListener('resize', function() {
+  var svg = document.querySelector('svg');
+  svg.style.width = 'calc(100% + 1.3px)';
+});
+
+
   /**
    * Initiate Pure Counter 
    */

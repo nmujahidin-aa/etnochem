@@ -7,6 +7,7 @@
 
 	@yield('content')
 
+	@include('landing-page.layouts.footer')
 	@include('landing-page.layouts.script')
 </body>
 </html>
