@@ -12,7 +12,7 @@
       </div>
       <div class="navbar-profile">
         <a href="#"><img src="{{URL::to('/')}}/img/testimonials/testimonials-1.jpg" alt="Profil"></a>
-        <small class="text-white" style="font-size: 15px;"> Hy, {{$row->name}}</small>
+        <small class="text-white" style="font-size: 15px;"> Hy, <b>{{ Auth::user()->name ?? null}} !</b> </small>
       </div>
     </div>
   </nav>
