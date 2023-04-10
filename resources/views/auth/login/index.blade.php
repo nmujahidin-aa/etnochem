@@ -1,12 +1,12 @@
 @extends('auth.layouts.master')
 @section('content')
-<section style="background-image: url(assests/img/hero-bg.jpg); height: 100vh;" class="bg-dark">
+<section style="background-image: url('/img/auth/background.png'); height: 100vh;" class="bg-dark">
 	<div class="container p-5">
 		<div class="card shadow" style="border-style: none;">
 			<div class="card-body" style="padding: 0px;">
 				
 				<div class="row">
-					<div class="col-md-5 col-sm-12 bg-primary">
+					<div class="col-md-5 col-sm-12" style="background: #8d7b68;">
 						<div class="p-5">
 							<h3 class="text-white">Etnochem.</h3>
 							<div class="d-flex justify-content-center pt-5">
@@ -37,7 +37,7 @@
 								<input type="password" name="password" id="password" class="form-control" placeholder="Masukkan password anda">
 							</div>
 							<div class="pt-3">
-								<button class="btn btn-primary form-control text-center">Masuk</button>
+								<button class="btn form-control text-center text-white" style="background-color: #8d7b68;">Masuk</button>
 							</div>
 						</form>
 						<div class="row pt-2">
