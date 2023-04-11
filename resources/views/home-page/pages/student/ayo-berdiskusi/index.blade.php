@@ -6,11 +6,22 @@
     <div class="container">
         <div class="row">
             <div class="col-3">
+
                 <div class="card">
                     <div class="card-body">
-
+                        <div class="row">
+                            <div class="col-5">Judul</div>
+                            <div class="col-1">:</div>
+                            <div class="col">Judul proyek ada disini</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5">kelompok</div>
+                            <div class="col-1">:</div>
+                            <div class="col">1</div>
+                        </div>
                     </div>
                 </div>
+
             </div>
             <div class="col-6">
                 <div class="card">
@@ -25,12 +36,9 @@
                         <p>User list</p>
                         <hr>
                         @foreach($table as $index => $row)
-                        <div class="row">
-                            <div class="col-3">
-                                <div style="width:40px; height: 40px; border-radius:100%;" class="bg-primary my-1"></div>
-                            </div>
-                            <div class="col"><small>{{$row->name}}</small></div>
-                            
+                        <div class="profile py-1">
+                            <a href="#"><img src="{{URL::to('/')}}/img/testimonials/testimonials-1.jpg" alt="Profil"></a>
+                            <small class="text-dark" style="font-size:12px;">{{$row->name}} </small>
                         </div>
                         @endforeach
                     </div>

@@ -61,6 +61,13 @@
 		}
 
 		/* Navbar End */
+
+		.profile img {
+		height: 30px;
+		border-radius: 50%;
+		border: 2px solid #c8b6a6;
+		padding: 2px;
+		}
 		
 
 	</style>
